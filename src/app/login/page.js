@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff, Mail, Lock } from 'lucide-react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation'
-;
+import { useRouter } from 'next/navigation';
 
 export default function LoginPage() {
   const [formData, setFormData] = useState({
@@ -135,7 +134,7 @@ export default function LoginPage() {
         {/* Sign Up Link */}
         <div className="mt-8 text-center">
           <p className="text-gray-600">
-            Don't have an account?{' '}
+            Do not have an account?{' '}
             <Link href="/signup" className="text-pink-600 hover:text-pink-700 font-semibold">
               Sign up
             </Link>
