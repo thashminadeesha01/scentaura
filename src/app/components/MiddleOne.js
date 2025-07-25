@@ -18,7 +18,7 @@ export default function LatestProducts() {
       <h2 className="text-5xl font-bold text-center text-pink-600 mb-3">ScentAura</h2>
       <h1 className="text-4xl font-bold text-center text-black-600 mb-2">Latest Products</h1>
       <p className="text-center text-gray-600 mb-10">
-        Don't miss out on the latest and greatest new product arrived to the ScentAura.
+        Do not miss out on the latest and greatest new product arrived to the ScentAura.
         Discover our <br /> latest collection of exquisite perfumes that captivate the senses and elevate your aura.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">

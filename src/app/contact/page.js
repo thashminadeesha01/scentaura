@@ -36,7 +36,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold text-pink-600 mb-6 text-center">Contact Us</h1>
 
       <p className="text-center text-gray-700 mb-10 max-w-3xl mx-auto">
-        Have a question or suggestion? We'd love to hear from you! Fill out the form below and our team will get back to you shortly.
+        Have a question or suggestion? We would love to hear from you! Fill out the form below and our team will get back to you shortly.
       </p>
 
       {/* Social Icons */}

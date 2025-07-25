@@ -61,7 +61,7 @@ export default function BrandPage() {
             Our Featured Brands
           </h1>
           <p className="text-gray-600 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">
-            Discover premium fragrances from the world's most prestigious perfume houses
+            Discover premium fragrances from the world is the most prestigious perfume houses
           </p>
         </div>
 
@@ -99,10 +99,10 @@ export default function BrandPage() {
         {/* Call to Action Section */}
         <div className="max-w-4xl mx-auto text-center mt-12 sm:mt-16 bg-white rounded-2xl shadow-lg p-6 sm:p-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-            Can't Find Your Favorite Brand?
+            Cannot Find Your Favorite Brand?
           </h2>
           <p className="text-gray-600 text-sm sm:text-base mb-6">
-            We're constantly expanding our collection. Contact us for special requests or check our shop for the latest additions.
+            We are constantly expanding our collection. Contact us for special requests or check our shop for the latest additions.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link

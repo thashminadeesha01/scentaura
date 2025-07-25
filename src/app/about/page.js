@@ -13,7 +13,7 @@ export default function AboutPage() {
 
       {/* Intro Paragraph */}
       <p className="text-gray-700 text-lg max-w-4xl mx-auto text-center mb-10">
-        At <span className="font-semibold text-pink-600">ScentAura</span>, we believe fragrance is more than just a scent. It's a story, a feeling, and a part of your identity. We are dedicated to delivering unique, high-quality perfumes and fragrance products that help you express yourself confidently every day.
+        At <span className="font-semibold text-pink-600">ScentAura</span>, we believe fragrance is more than just a scent. It is a story, a feeling, and a part of your identity. We are dedicated to delivering unique, high-quality perfumes and fragrance products that help you express yourself confidently every day.
       </p>
 
       {/* Mission & Why Choose Us */}

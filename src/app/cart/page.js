@@ -159,7 +159,7 @@ export default function CartPage() {
             <div className="text-center py-12 sm:py-16">
               <ShoppingBag size={60} className="sm:w-20 sm:h-20 mx-auto text-gray-300 mb-4 sm:mb-6" />
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">Your Cart is Empty</h2>
-              <p className="text-gray-600 mb-6 sm:mb-8 text-sm sm:text-base">Looks like you haven't added any fragrances to your cart yet.</p>
+              <p className="text-gray-600 mb-6 sm:mb-8 text-sm sm:text-base">Looks like you have not added any fragrances to your cart yet.</p>
               <Link
                 href="/shop"
                 className="inline-flex items-center gap-2 bg-pink-600 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-pink-700 transition duration-200 text-sm sm:text-base"
@@ -232,7 +232,8 @@ export default function CartPage() {
 
                   {appliedPromo && (
                     <div className="mt-2 flex items-center justify-between bg-green-50 text-green-800 px-3 py-2 rounded-lg text-xs sm:text-sm">
-                      <span>Code "{appliedPromo.code}" applied</span>
+                      <p>Code &quot;{appliedPromo.code}&quot; applied</p>
+
                       <button onClick={removePromoCode} className="text-red-600 hover:text-red-800 text-lg">
                         ×
                       </button>
